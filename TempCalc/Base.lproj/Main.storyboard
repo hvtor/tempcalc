@@ -16,49 +16,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spE-L2-sws">
-                                <rect key="frame" x="180" y="207" width="240" height="48"/>
+                            <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8UR-Of-sJ8">
+                                <rect key="frame" x="0.0" y="269" width="600" height="62"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="32"/>
+                                <state key="normal" title="Convert">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="convertTemp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zyA-PY-7Q0"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dmZ-XK-1kL">
+                                <rect key="frame" x="180" y="108" width="240" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="ZuY-oW-7hS"/>
+                                    <constraint firstAttribute="width" constant="240" id="9wo-HV-85K"/>
+                                    <constraint firstAttribute="height" constant="30" id="A1V-Eu-il7"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spE-L2-sws">
+                                <rect key="frame" x="180" y="172" width="240" height="48"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dmZ-XK-1kL">
-                                <rect key="frame" x="180" y="108" width="240" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Lvg-10-Sm6"/>
-                                    <constraint firstAttribute="width" constant="240" id="TUl-K5-UaL"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
-                            </textField>
-                            <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8UR-Of-sJ8">
-                                <rect key="frame" x="0.0" y="275" width="600" height="62"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="32"/>
-                                <state key="normal" title="Convert to Celsius">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="8UR-Of-sJ8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="FgW-mv-oJs"/>
-                            <constraint firstItem="dmZ-XK-1kL" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="88" id="Igd-eV-K7b"/>
-                            <constraint firstItem="8UR-Of-sJ8" firstAttribute="centerX" secondItem="spE-L2-sws" secondAttribute="centerX" id="JHA-pa-9Pi"/>
-                            <constraint firstAttribute="trailing" secondItem="8UR-Of-sJ8" secondAttribute="trailing" id="Knw-bQ-jZr"/>
-                            <constraint firstItem="spE-L2-sws" firstAttribute="top" secondItem="dmZ-XK-1kL" secondAttribute="bottom" constant="69" id="Pow-23-QPx"/>
-                            <constraint firstItem="dmZ-XK-1kL" firstAttribute="trailing" secondItem="spE-L2-sws" secondAttribute="trailing" id="RJ1-Kj-IBe"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="8UR-Of-sJ8" secondAttribute="bottom" constant="263" id="e22-be-33g"/>
-                            <constraint firstItem="8UR-Of-sJ8" firstAttribute="top" secondItem="spE-L2-sws" secondAttribute="bottom" constant="20" id="mfx-W3-SDG"/>
-                            <constraint firstItem="spE-L2-sws" firstAttribute="leading" secondItem="dmZ-XK-1kL" secondAttribute="leading" id="zqx-gL-Ejv"/>
+                            <constraint firstItem="dmZ-XK-1kL" firstAttribute="trailing" secondItem="spE-L2-sws" secondAttribute="trailing" id="75V-JH-cZu"/>
+                            <constraint firstItem="spE-L2-sws" firstAttribute="leading" secondItem="dmZ-XK-1kL" secondAttribute="leading" id="7Hi-0S-og3"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="8UR-Of-sJ8" secondAttribute="bottom" constant="269" id="7YA-kG-V9V"/>
+                            <constraint firstItem="8UR-Of-sJ8" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="EcK-6m-TDH"/>
+                            <constraint firstItem="8UR-Of-sJ8" firstAttribute="top" secondItem="spE-L2-sws" secondAttribute="bottom" constant="49" id="OjR-Cu-mNl"/>
+                            <constraint firstItem="spE-L2-sws" firstAttribute="centerX" secondItem="8UR-Of-sJ8" secondAttribute="centerX" id="b5z-1c-N0J"/>
+                            <constraint firstItem="spE-L2-sws" firstAttribute="top" secondItem="dmZ-XK-1kL" secondAttribute="bottom" constant="34" id="e7L-6d-p7n"/>
+                            <constraint firstItem="8UR-Of-sJ8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="jd9-4X-sRO"/>
+                            <constraint firstAttribute="trailing" secondItem="8UR-Of-sJ8" secondAttribute="trailing" id="oYI-cC-IbP"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="resultLabel" destination="spE-L2-sws" id="Idg-kP-YhD"/>
-                        <outlet property="tempText" destination="dmZ-XK-1kL" id="e4Q-4S-svL"/>
+                        <outlet property="resultLabel" destination="spE-L2-sws" id="jEA-zc-HSe"/>
+                        <outlet property="tempText" destination="dmZ-XK-1kL" id="fhx-3o-RiV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

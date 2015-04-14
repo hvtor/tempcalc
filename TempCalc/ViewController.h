@@ -12,6 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UITextField *tempText;
 @property (strong, nonatomic) IBOutlet UILabel *resultLabel;
-
+- (IBAction)convertTemp:(id)sender;
 @end
 
