@@ -24,4 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)convertTemp:(id)sender {
+    double fahrenheit = [_tempText.text doubleValue];
+    double celsius = (fahrenheit - 32) / 1.8;
+    
+    NSString *resultString = [[NSString alloc]
+                              initWithFormat: @"%.1f °C", celsius];
+    _resultLabel.text = resultString;
+}
+
 @end
