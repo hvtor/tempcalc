@@ -74,12 +74,12 @@
         // celsius
         case 0:
             [self convertCelsiusToFahrenheit];
-            self.symbolValue.text = @"C";
+            self.symbolValue.text = @"°C";
             break;
         // fahrenheit
         case 1:
             [self convertFahrenheitToCelsius];
-            self.symbolValue.text = @"F";
+            self.symbolValue.text = @"°F";
             break;
     }
 }
