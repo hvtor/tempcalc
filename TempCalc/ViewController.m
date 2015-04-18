@@ -17,20 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
-   
+  
 }
-
-//- (NSString *)fToC:(NSString *)fahrenheit
-//{
-//    double fah = [fahrenheit doubleValue];
-//    double cel = (fah - 32) / 1.8;
-//    
-//    NSString *resultString = [[NSString alloc]
-//                             initWithFormat: @"%.1f °C", cel];
-//    return resultString;
-//}
 
 - (void)convertFahrenheitToCelsius
 {
@@ -52,17 +40,8 @@
     _resultLabel.text = resultLabel;
 }
 
-//- (void)convertCToF:(NSString *)celsius
-//{
-//    double cel = [_tempText.text doubleValue];
-//    double fah = (celsius*1.8) + 32;
-//    
-//    NSString *resultLabel = [[NSString alloc]
-//                             initWithFormat: @"%.1f °F", fah];
-//    _resultLabel.text = resultLabel;
-//}
-
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
@@ -84,19 +63,6 @@
     }
 }
 
-
-/*- (IBAction)convertTemp:(id)sender {
-    double fahrenheit = [_tempText.text doubleValue];
-    double celsius = (fahrenheit - 32) / 1.8;
-    
-    NSString *resultString = [[NSString alloc]
-                              initWithFormat: @"%.1f C", celsius];
-    _resultLabel.text = resultString;
-}*/
-
-
-
-
 -(IBAction)tempTextReturn:(id)sender
 {
     [sender resignFirstResponder];
@@ -110,9 +76,7 @@
         [_tempText resignFirstResponder];
         
     }
-    
-    
-    
+
     [super touchesBegan:touches withEvent:event];
 }
 

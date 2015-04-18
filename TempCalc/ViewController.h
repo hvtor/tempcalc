@@ -20,6 +20,3 @@
 @property (weak, nonatomic) IBOutlet UILabel *symbolValue;
 
 @end
-
-
-//http://stackoverflow.com/questions/19367847/different-button-actions-for-each-segmented-control-segment
