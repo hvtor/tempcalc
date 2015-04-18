@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E09145FF-8BCB-4B68-BA62-F954375A9521</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TempCalc</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8154AD0952F656F4A2D39E545B4CFA40A9C83F48</key>
+		<string>https://github.com/hvtor/tempcalc.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TempCalc.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8154AD0952F656F4A2D39E545B4CFA40A9C83F48</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hvtor/tempcalc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8154AD0952F656F4A2D39E545B4CFA40A9C83F48</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8154AD0952F656F4A2D39E545B4CFA40A9C83F48</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TempCalc</string>
+		</dict>
+	</array>
+</dict>
+</plist>
